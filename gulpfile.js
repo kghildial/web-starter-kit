@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var nodemon = require('gulp-nodemon');
-var browserSync = reqiure('browser-sync');
+var browserSync = require('browser-sync');
+var reload = browserSync.reload;
+var sass = require('gulp-sass');
 
 gulp.task('nodemon', function(cb){
   var called = false;
@@ -30,4 +32,13 @@ gulp.task('browser-sync', ['nodemon'], function(){
     port: 5000,
     notify: true
   });
+});
+
+gulp.task('sass', function(){
+  return gulp.src('public/sass/**/*.scss')
+  .pipe(sass())
+  .pipe(gulp.dest('public/css'))
+  .pipe(browserSync.reload({
+    stream: true
+  }))
 });
