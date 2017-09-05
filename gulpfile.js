@@ -4,6 +4,7 @@ var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 var sass = require('gulp-sass');
 var cssnano = require('gulp-cssnano');
+var rename = require('gulp-rename');
 
 gulp.task('nodemon', function(cb){
   var called = false;
