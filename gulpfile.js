@@ -3,6 +3,7 @@ var nodemon = require('gulp-nodemon');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 var sass = require('gulp-sass');
+var cssnano = require('gulp-cssnano');
 
 gulp.task('nodemon', function(cb){
   var called = false;
@@ -37,10 +38,12 @@ gulp.task('browser-sync', ['nodemon'], function(){
 gulp.task('sass', function(){
   return gulp.src('public/sass/**/*.scss')
   .pipe(sass())
+  .pipe(cssnano())
+  .pipe(rename({ suffix: '.min' }))
   .pipe(gulp.dest('public/css'))
   .pipe(browserSync.reload({
     stream: true
-  }))
+  }));
 });
 
 gulp.task('watch', ['browser-sync', 'sass'], function(){
