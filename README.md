@@ -3,7 +3,8 @@ A simple web-starter boilerplate in node.js. It's minimal, and highly customizab
 
 ## Steps to get set up
 
-**Download or pull install this repo:** Click the green *"Clone or Download"* button. Make sure u click that :star: button after doing so
+**Download or pull install this repo:** Click the green *"Clone or Download"* button.
+Make sure u click that :star: button after doing so :wink:
 
 **Install Node.js:** https://nodejs.org/en/
 
