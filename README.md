@@ -3,20 +3,19 @@ A simple web-starter boilerplate in node.js. It's minimal, and highly customizab
 
 ## Steps to get set up
 
-**Download or pull install this repo:** Click the green *Clone or Download* button.
+**Download or pull install this repo:** Click the green *"Clone or Download"* button.
 
 **Install Node.js:** https://nodejs.org/en/
 
-**Install dependecies:** `npm install`
+**Install dependecies:** Type the following command in the terminal/command-prompt `npm install`
 
-**Run server:** `gulp watch`
+**Run server:** Type the following command in the terminal/command-prompt `gulp watch`
 
 ## To import files for deployment: 
 
-Type the following command in the terminal/command-prompt to reeady files for deployment: `gulp dist`
+Type the following command in the terminal/command-prompt to ready files for deployment: `gulp dist`
 
 > Have fun developing websites!
 
-**PS.** Check out my [website](http://www.kinshukghildial.com/) :smile:
-
+**PS.:** Check out my [website](http://www.kinshukghildial.com/) :smile:
 If u like this repo pls give me a :star:
