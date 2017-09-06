@@ -1,0 +1,24 @@
+$font: 'Lato', sans-serif;
+
+html, body, ol, ul{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: $font;
+  line-height: 1;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  &:hover{
+    color: blue;
+    transition: 0.5s;
+  }
+}
