@@ -5,6 +5,7 @@ var reload = browserSync.reload;
 var sass = require('gulp-sass');
 var cssnano = require('gulp-cssnano');
 var rename = require('gulp-rename');
+var es = require('event-stream');
 
 gulp.task('nodemon', function(cb){
   var called = false;
@@ -52,4 +53,15 @@ gulp.task('watch', ['browser-sync', 'sass'], function(){
   gulp.watch('public/sass/**/*.scss', ['sass']);
   gulp.watch('public/js/**/*.js', reload);
   gulp.watch('./views/**/*.ejs', reload);
+});
+
+
+gulp.task('dist', function(){
+  return es.merge(
+    gulp.src('app.js').pipe(gulp.dest('dist/')),
+    gulp.src('package.json').pipe(gulp.dest('dist/')),
+    gulp.src('views/**/*').pipe(gulp.dest('dist/views/')),
+    gulp.src('public/css/**/*').pipe(gulp.dest('dist/public/css/')),
+    gulp.src('public/images/**/*').pipe(gulp.dest('dist/public/images/'))
+  );
 });
