@@ -62,6 +62,7 @@ gulp.task('dist', function(){
     gulp.src('package.json').pipe(gulp.dest('dist/')),
     gulp.src('views/**/*').pipe(gulp.dest('dist/views/')),
     gulp.src('public/css/**/*').pipe(gulp.dest('dist/public/css/')),
+    gulp.src('public/js/**/*').pipe(gulp.dest('dist/public/js/')),
     gulp.src('public/images/**/*').pipe(gulp.dest('dist/public/images/'))
   );
 });
