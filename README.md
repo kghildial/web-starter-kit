@@ -3,7 +3,7 @@ A simple web-starter boilerplate in node.js. It's minimal, and highly customizab
 
 ## Steps to get set up
 
-**Download or pull install this repo:** Click the green *"Clone or Download"* button.
+**Download or pull this repo:** Click the green *"Clone or Download"* button.
 Make sure u click that :star: button after doing so :wink:
 
 **Install Node.js:** https://nodejs.org/en/
@@ -12,7 +12,7 @@ Make sure u click that :star: button after doing so :wink:
 
 **Run server:** Type the following command in the terminal/command-prompt `gulp watch`
 
-## To import files for deployment: 
+## To import files for deployment:
 
 Type the following command in the terminal/command-prompt to ready files for deployment: `gulp dist`
 
