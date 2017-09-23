@@ -8,11 +8,13 @@ Make sure u click that :star: button after doing so :wink:
 
 **Install Node.js:** https://nodejs.org/en/
 
+**Install gulp-cli:** Type the following command in the terminal/command-prompt `npm install -g gulp-cli`
+
 **Install dependecies:** Type the following command in the terminal/command-prompt `npm install`
 
 **Run server:** Type the following command in the terminal/command-prompt `gulp watch`
 
-## To import files for deployment:
+## To export files for deployment:
 
 Type the following command in the terminal/command-prompt to ready files for deployment: `gulp dist`
 
