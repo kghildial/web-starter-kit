@@ -20,5 +20,4 @@ Type the following command in the terminal/command-prompt to ready files for dep
 
 > Have fun developing websites!
 
-**PS.:** Check out my [website](http://www.kinshukghildial.com/) :smile:
-If u like this repo pls give me a :star:
+**PS.:** If u like this repo pls give it a :star:
