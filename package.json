@@ -9,8 +9,8 @@
   "author": "Kinshuk Ghildial",
   "license": "MIT",
   "dependencies": {
-    "ejs": "^2.5.7",
-    "express": "^4.15.4"
+    "ejs": "latest",
+    "express": "latest"
   },
   "devDependencies": {
     "browser-sync": "latest",
