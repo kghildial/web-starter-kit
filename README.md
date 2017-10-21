@@ -1,5 +1,5 @@
 # web-starter-kit
-A simple web-starter boilerplate in node.js. It's minimal, and highly customizable. It uses the deafult viewing template as EJS along with scss as the css preprocessor. Developers can customize it any way they want; use jade, less and whatnot..! Have fun developing websites! 
+A simple web-starter boilerplate in Node.js. It's minimal, and highly customizable. It uses the deafult viewing template as EJS along with SCSS as the CSS preprocessor. Developers can customize it any way they want; use jade, LESS and whatnot..! Have fun developing websites! 
 
 ## Steps to get set up
 
