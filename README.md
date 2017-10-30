@@ -6,9 +6,11 @@ A simple web-starter kit in Node.js. It's minimal, and highly customizable. It u
 **Download or pull this repo:** Click the green *"Clone or Download"* button.
 Make sure u click that :star: button after doing so :wink:
 
-**Install Node.js:** https://nodejs.org/en/
+**Install Node.js:** https://nodejs.org/en/o
 
-**Install gulp-cli:** Type the following command in the terminal/command-prompt `npm install -g gulp-cli`
+**Install nodemon:** Type the following command in the terminal/command-prompt as root `npm install -g nodemon`
+
+**Install gulp-cli:** Type the following command in the terminal/command-prompt as root `npm install -g gulp-cli`
 
 **Install dependecies:** Type the following command in the terminal/command-prompt `npm install`
 
