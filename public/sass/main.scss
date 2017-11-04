@@ -7,14 +7,17 @@
   text-align: center;
   #head{
     font-size: 5em;
-    font-weight: 100;
+    font-weight: 300;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
   }
   a{
     padding-left: 8px;
     font-size: 21px;
-    font-weight: 300;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     transition: 0.5s all;
   }
 }
